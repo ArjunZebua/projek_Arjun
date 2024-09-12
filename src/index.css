@@ -1,0 +1,41 @@
+.profile-card {
+  background-color: #ede5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+}
+
+.profile-title {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-info h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
